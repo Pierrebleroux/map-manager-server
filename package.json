@@ -1,0 +1,30 @@
+{
+  "name": "business_discover",
+  "version": "1.0.0",
+  "description": "Discovery for the business",
+  "main": "api.js",
+  "scripts": {
+    "express": "nodemon express_api.js --exec babel-node --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-dawson": "^0.1.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "dawson": {
+    "assetsDir": false
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.0",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^18.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
